@@ -15,6 +15,7 @@ This repository contains instructions and resources to:
 4. Verify installation by running:
    ```bash
    docker --version
+   ```
 
 #### **HadoopContainer.md**
 ```markdown
@@ -23,7 +24,9 @@ This repository contains instructions and resources to:
 1. Pull the Hadoop image:
    ```bash
    docker pull sequenceiq/hadoop-docker
+```
 docker run -it sequenceiq/hadoop-docker /etc/bootstrap.sh -bash
+```
 
 #### **Dockerfile**
 ```dockerfile
