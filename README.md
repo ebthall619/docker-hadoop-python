@@ -25,17 +25,24 @@ This repository contains instructions and resources to:
    ```bash
    docker pull sequenceiq/hadoop-docker
 ```
+ ```bash
 docker run -it sequenceiq/hadoop-docker /etc/bootstrap.sh -bash
 ```
 
 #### **Dockerfile**
+```bash
 ```dockerfile
 # Base image
 FROM fedora:latest
-
+```
 # Install Python
+```bash
 RUN dnf -y install python3 && \
+```
+```bash
     dnf clean all
-
+```
 # Default command
+```bash
 CMD ["python3"]
+```
